@@ -154,7 +154,7 @@ public abstract class AbstractMinecartMixin extends Entity {
 				if (this.hasPlayerRider()) {
 					PlayerEntity player = (PlayerEntity) this.getFirstPassenger();
 					if (player != null) {
-						player.playSound(SoundEvents.BLOCK_NOTE_BLOCK_BELL, SoundCategory.PLAYERS, 1.0f, 1.0f);
+						player.playSound(SoundEvents.BLOCK_REDSTONE_TORCH_BURNOUT, SoundCategory.PLAYERS, 1.0f, 1.0f);
 					}
 				}
 				return true;
